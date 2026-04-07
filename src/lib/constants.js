@@ -22,3 +22,5 @@ export function fmt(d) {
 export function getDaysInMonth(year, month) {
   return new Date(year, month + 1, 0).getDate()
 }
+
+export const STREAK_MILESTONES = [3, 7, 10, 14, 21, 30, 50, 66, 100]
